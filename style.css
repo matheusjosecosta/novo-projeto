@@ -24,10 +24,10 @@ nav {
 
 nav > a { 
     font-size: 3vw; 
+    text-decoration: none;
     border-radius: 5px;
     padding: 10px;
     width: 60vw;
-    text-decoration: solid;
     background-color: rgb(8, 227, 19);
     color: rgb(244, 244, 244);
     box-sizing: border-box;
@@ -37,7 +37,8 @@ nav > a {
 
 nav > a:hover {
     transform: translate(-3px, -3px);
-    transition: transform 0.5s;
+    transition: transform 0.5s, border 0.5s;
+
     
   
 
@@ -66,8 +67,18 @@ section img {
 }
 section img:hover {
     transform: translate(-3px, -3px);
-    transition: tranform 0.5s, border 0.5s;
+    transition: transform 0.5s, border 0.5s;
 }
 nav > h3 {
     text-align: center;
+}
+section nav > a.img {
+    display: block;
+    margin: auto;
+    width: 20vw;
+    background-color: transparent;
+    
+    
+    
+    
 }
